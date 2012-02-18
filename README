@@ -2,3 +2,6 @@ SAT Converter
 =============
 
 Performs polynomial reduction of DIMACS k-SAT formulas to j-SAT, 3 <= j < k.
+
+Usage:
+./satconv /path/to/instance j
