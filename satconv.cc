@@ -15,6 +15,8 @@ int iabs(int a) { return a < 0 ? -a : a; }
 int imax(int a, int b) { return a >= b ? a : b; }
 
 int main(int argc, char* argv[]) {
+    cin.sync_with_stdio(false);
+    cout.sync_with_stdio(false);
     string instance_path(argv[1]);
     ifstream instance(argv[1]);
     istringstream kss(argv[2]);
