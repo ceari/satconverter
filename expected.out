@@ -1,0 +1,11 @@
+c 3-SAT formula converted from test.in
+c
+c start with comments
+c
+c 
+c Originally: p cnf 5 3
+p cnf 6 4
+1 -5 4 0
+-1 5 6 0
+-6 3 4 0
+-3 -4 0

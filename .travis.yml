@@ -1,0 +1,9 @@
+language: cpp
+
+compiler:
+- clang
+- gcc
+
+script:
+- $CXX -O2 satconv.cc -o satconv
+- ./satconv test.in 3 > test.out && diff expected.out test.out
